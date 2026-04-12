@@ -11,4 +11,10 @@ friends[1] = "Akua"
 
 friends = Array.new
 friends[0] = "Kofi"
-puts friends
+friends[5] = "Ama"
+friends = Array ["Kofi", "Ama", "Kwame", "Esi", "Kojo"]
+#puts friends.length()
+#puts friends.size()
+#puts friends.include? "Kwesi"
+#puts friends.reverse()
+puts friends.sort()
