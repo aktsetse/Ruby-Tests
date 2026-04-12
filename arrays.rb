@@ -5,4 +5,10 @@
 
 
 friends = Array ["Kofi", "Ama", "Kwame", "Esi", "Kojo"]
+#puts friends
+#puts friends[0]
+friends[1] = "Akua"
+
+friends = Array.new
+friends[0] = "Kofi"
 puts friends
