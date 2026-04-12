@@ -3,7 +3,7 @@
 # It even allows you to store data of different types in the same array. You can create an array using square brackets [] or the Array class.
 
 
-
+# Creating arrays using the Array class
 friends = Array ["Kofi", "Ama", "Kwame", "Esi", "Kojo"]
 #puts friends
 #puts friends[0]
@@ -17,4 +17,8 @@ friends = Array ["Kofi", "Ama", "Kwame", "Esi", "Kojo"]
 #puts friends.size()
 #puts friends.include? "Kwesi"
 #puts friends.reverse()
-puts friends.sort()
+#puts friends.sort()
+
+# Creating arrays using square brackets
+group = ["Kofi", "Ama", "Kwame", "Esi"]
+puts group
