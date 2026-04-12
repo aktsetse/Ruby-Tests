@@ -26,3 +26,15 @@ puts person["age"]
 # Deleting a key-value pair from a hash
 person.delete("city")
 puts person
+
+states = {
+  "Pensylvania" => "PA",
+  "New York" => "NY",
+  :Florida => "FL",
+  "Virginia" => "VA",
+  "North Carolina" => "NC",
+  "Louisiana" => "LA",
+  "California" => "CA",
+}
+puts states
+puts states[:Florida]
