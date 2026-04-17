@@ -15,7 +15,7 @@ greet("Veve", 22, "San Francisco")
 # Cube method
 def cube(num)
   return num * num * num, 70 # can return multiple values as an array (separated by comma)
-  puts "This will not be executed" # code after return statement will not be executed
+  #puts "This will not be executed" # code after return statement will not be executed
 end
 
 puts (cube(3)[1])
